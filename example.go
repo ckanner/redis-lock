@@ -1,9 +1,3 @@
-# redis-lock
-A distributed lock based on redis.
-
-Example:
-
-```go
 package main
 
 import (
@@ -38,7 +32,4 @@ func main() {
 	defer distMutex.Unlock()
 	logic()
 }
-
-
-```
 
